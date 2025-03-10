@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@500&display=swap");
+
+:root {
+  --color1: #474dff;
+  --color2: #0a0a0a;
+  --color3: #fefefe;
+  --color4: #1d1d1d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color4);
+  color: var(--color3);
+}
+
+/* NAVIGATION ****************************** */
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+/* HEADER ***************************************** */
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px auto;
+}
+
+.header-left h1 {
+  font-size: 5rem;
+}
+
+.header-left h3 {
+  color: var(--color1);
+  font-size: 1.8rem;
+}
+
+#modem {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-right img {
+  max-width: 100%;
+}
+
+/* INFOS *************************************************** */
+.infos {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  background-color: var(--color2);
+  border-radius: 10px;
+}
+
+
+
+.btn-container button {
+  padding: 10px 0px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--color1);
+  color: var(--color3);
+  font-weight: bold;
+  width: 150px;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.infos-right {
+  width: 100%;
+}
+
+.investors {
+  display: grid;
+  align-items: center;
+  height: 80%;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-items: center;
+
+  
+}
+
+.infos-right img {
+height: 50px;
+margin: 0 auto;
+}
